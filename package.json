@@ -26,5 +26,9 @@
   "license": "MIT",
   "dependencies": {
     "aws-sdk": "^2.773.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/frames75/put-secrets-awssm.git"
   }
 }
