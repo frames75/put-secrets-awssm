@@ -25,7 +25,8 @@
   "author": "frames75",
   "license": "MIT",
   "dependencies": {
-    "aws-sdk": "^2.773.0"
+    "aws-sdk": "^2.773.0",
+    "n-readlines": "^1.0.0"
   },
   "repository": {
     "type": "git",
