@@ -1,6 +1,6 @@
 {
   "name": "put-secrets-awssm",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Upload secret variables from a file into AWS SM Parameter Store",
   "main": "put-secrets-awssmps.js",
   "scripts": {
