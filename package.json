@@ -26,7 +26,8 @@
   "license": "MIT",
   "dependencies": {
     "aws-sdk": "^2.773.0",
-    "n-readlines": "^1.0.0"
+    "n-readlines": "^1.0.0",
+    "yargs": "^16.1.0"
   },
   "repository": {
     "type": "git",
