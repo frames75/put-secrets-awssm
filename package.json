@@ -1,0 +1,30 @@
+{
+  "name": "put-secrets-awssm",
+  "version": "1.0.0",
+  "description": "Upload secret variables from a file into AWS SM Parameter Store",
+  "main": "put-secrets-awssmps.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "put-secrets-awssm": "./put-secrets-awssm.js"
+  },
+  "keywords": [
+    "put",
+    "upload",
+    "secrets",
+    "variables",
+    "node",
+    "js",
+    "javascript",
+    "AWS",
+    "SSM",
+    "Parameter",
+    "Store"
+  ],
+  "author": "frames75",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.773.0"
+  }
+}
