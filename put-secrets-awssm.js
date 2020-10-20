@@ -44,7 +44,7 @@ const argv = require('yargs/yargs')(process.argv.slice(2))
 	.argv;
 
 const uploadParamToAWSSM = function(nameSpace, region, param, value) {
-	let paramNameSpace = '/' + nameSpace + '/' + param;
+	const paramNameSpace = '/' + nameSpace + '/' + param;
 
 	const params = {
 		Name: paramNameSpace /* required */
@@ -66,7 +66,7 @@ const uploadParamToAWSSM = function(nameSpace, region, param, value) {
 		// ],
 	};
 
-	let ssm = new SSM({
+	const ssm = new SSM({
 		apiVersion: '2014-11-06', 
 	    region: region
 	});
