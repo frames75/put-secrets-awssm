@@ -81,3 +81,9 @@ $ aws ssm put-parameter --type SecureString --name awsExampleParameterSSM --valu
 [Secret Forklift](https://github.com/lukecarr/secret-forklift)
 
 [ssmenv-cli](https://github.com/MikeBild/ssmenv-cli): Reads key/values from AWS SSM Parameter-Store and applies it to environment variables.
+
+## Contribute
+
+Feel free to submit a PR!
+
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
